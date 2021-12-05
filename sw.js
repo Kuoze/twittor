@@ -1,13 +1,13 @@
 // Imports
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v1';
+const STATIC_CACHE = 'static-v2';
 const DYNAMIC_CACHE = 'dynamic-v1';
 const IMMUTABLE_CACHE = 'immutable-v1';
 
 // Todo lo necesario para la app
 const APP_SHELL = [
-    //'/',
+    //'/', // Para Producción no es necesario
     'index.html',
     'css/style.css',
     'img/favicon.ico',
